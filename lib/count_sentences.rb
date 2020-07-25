@@ -16,5 +16,6 @@ class String
 
   def count_sentences
     new_array = self.split(/[^\.!?]+[\.!?]/).map {|sentence| sentence.count} 
+    binding.pry
   end
 end 
