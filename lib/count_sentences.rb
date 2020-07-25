@@ -18,5 +18,4 @@ class String
     new_array= self.split(/[^\.!?]+[\.!?]/).count 
     #binding.pry
   end
-  new_array
 end
