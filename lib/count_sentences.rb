@@ -18,5 +18,4 @@ class String
     new_array ||= self.split(/[^\.!?]+[\.!?]/).map {|sentence| sentence.count.join} 
     binding.pry
   end
-  new_array
-end 
+end
